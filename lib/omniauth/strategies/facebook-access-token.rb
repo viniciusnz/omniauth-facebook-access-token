@@ -15,7 +15,7 @@ module OmniAuth
       option :client_options, {
         :site => 'https://graph.facebook.com',
         :token_url => '/oauth/access_token',
-        :ssl => { :version => "SSLv3" }
+        :ssl => { :version => "TLS1.2" }
       }
 
       option :access_token_options, {
